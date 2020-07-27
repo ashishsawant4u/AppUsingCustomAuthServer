@@ -30,8 +30,9 @@ public class AppController {
 		resourceDetails.setScope(Arrays.asList("read_products"));
 		resourceDetails.setClientId("webshop");
 		resourceDetails.setClientSecret("webshopsecret");
-		resourceDetails.setUsername("int_user1");
+		resourceDetails.setUsername("qa_user1");
 		resourceDetails.setPassword("12345678");
+		
 		
 		OAuth2RestTemplate restTemplate = new OAuth2RestTemplate(resourceDetails);
 		
